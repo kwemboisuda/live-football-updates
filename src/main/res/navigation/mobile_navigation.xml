@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.coke.livefootballmbiret.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.coke.livefootballmbiret.ui.gallery.GalleryFragment"
+        android:label="@string/menu_top_scores"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.coke.livefootballmbiret.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_previous_winners"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/bnbLiveFragment"
+        android:name="com.coke.livefootballmbiret.ui.bottomlive.BnbLiveFragment"
+        android:label="Live Matches"
+        tools:layout="@layout/fragment_bnb_live" />
+    <fragment
+        android:id="@+id/bnbScoresFragment"
+        android:name="com.coke.livefootballmbiret.ui.bottomscores.BnbScoresFragment"
+        android:label="Top Scorers"
+        tools:layout="@layout/fragment_bnb_scores" />
+    <fragment
+        android:id="@+id/bnbFixturesFragment"
+        android:name="com.coke.livefootballmbiret.ui.bottomfixtures.BnbFixturesFragment"
+        android:label="Fixtures"
+        tools:layout="@layout/fragment_bnb_fixtures" />
+    <fragment
+        android:id="@+id/home2Fragment"
+        android:name="com.coke.livefootballmbiret.Home2Fragment"
+        android:label="@string/menu_sports_results"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/gallery2Fragment"
+        android:name="com.coke.livefootballmbiret.ui.Gallery2Fragment"
+        android:label="@string/menu_highlights"
+        tools:layout="@layout/fragment_gallery2" />
+    <fragment
+        android:id="@+id/slideshow2Fragment"
+        android:name="com.coke.livefootballmbiret.ui.Slideshow2Fragment"
+        android:label="@string/menu_live"
+        tools:layout="@layout/fragment_slideshow2" />
+</navigation>

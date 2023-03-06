@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/top_score"
+            android:title="Scores" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/previous_winners"
+            android:title="Previous Winners" />
+        <item
+            android:id="@+id/home2Fragment"
+            android:icon="@drawable/sports_results"
+            android:title="Sports Results" />
+        <item
+            android:id="@+id/gallery2Fragment"
+            android:icon="@drawable/highlights"
+            android:title="Highlights" />
+        <item
+            android:id="@+id/slideshow2Fragment"
+            android:icon="@drawable/ic_baseline_live_tv_24"
+            android:title="Live " />
+    </group>
+</menu>

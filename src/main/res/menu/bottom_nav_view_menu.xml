@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home"
+          android:icon="@drawable/ic_baseline_home_24"
+          android:id="@+id/nav_home"/>
+    <item android:title="Top News"
+        android:icon="@drawable/breaking_news"
+        android:id="@+id/bnbLiveFragment"/>
+    <item android:title="Top Scorers"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        android:id="@+id/bnbScoresFragment"/>
+    <item android:title="Fixtures"
+        android:icon="@drawable/fixtures"
+        android:id="@+id/bnbFixturesFragment"/>
+
+
+
+
+</menu>
